@@ -1,0 +1,154 @@
+N: 1000000
+PPN: 32
+NODES: 1
+ADLB_SERVERS: 1
+TUBINE_ENGINES: 1
+nprocs: 32
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/51
+SCRIPT=/mnt/a/u/sciteam/krieder/swift_bench/b1.tcl
+PPN=32
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/51
+WALLTIME=00:15:00
+NODES=1
+wrote: /u/sciteam/krieder/turbine-output/2013/09/13/17/38/51/turbine-aprun.sh
+436874.nid11293
+N: 2000000
+PPN: 32
+NODES: 2
+ADLB_SERVERS: 2
+TUBINE_ENGINES: 2
+nprocs: 64
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/53
+SCRIPT=/mnt/a/u/sciteam/krieder/swift_bench/b1.tcl
+PPN=32
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/53
+WALLTIME=00:15:00
+NODES=2
+wrote: /u/sciteam/krieder/turbine-output/2013/09/13/17/38/53/turbine-aprun.sh
+436875.nid11293
+N: 4000000
+PPN: 32
+NODES: 4
+ADLB_SERVERS: 4
+TUBINE_ENGINES: 4
+nprocs: 128
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/53
+SCRIPT=/mnt/a/u/sciteam/krieder/swift_bench/b1.tcl
+PPN=32
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/53
+WALLTIME=00:15:00
+NODES=4
+wrote: /u/sciteam/krieder/turbine-output/2013/09/13/17/38/53/turbine-aprun.sh
+436876.nid11293
+N: 8000000
+PPN: 32
+NODES: 8
+ADLB_SERVERS: 8
+TUBINE_ENGINES: 8
+nprocs: 256
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/54
+SCRIPT=/mnt/a/u/sciteam/krieder/swift_bench/b1.tcl
+PPN=32
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/54
+WALLTIME=00:15:00
+NODES=8
+wrote: /u/sciteam/krieder/turbine-output/2013/09/13/17/38/54/turbine-aprun.sh
+436877.nid11293
+N: 16000000
+PPN: 32
+NODES: 16
+ADLB_SERVERS: 16
+TUBINE_ENGINES: 16
+nprocs: 512
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/55
+SCRIPT=/mnt/a/u/sciteam/krieder/swift_bench/b1.tcl
+PPN=32
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/55
+WALLTIME=00:15:00
+NODES=16
+wrote: /u/sciteam/krieder/turbine-output/2013/09/13/17/38/55/turbine-aprun.sh
+436878.nid11293
+N: 32000000
+PPN: 32
+NODES: 32
+ADLB_SERVERS: 32
+TUBINE_ENGINES: 32
+nprocs: 1024
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/56
+SCRIPT=/mnt/a/u/sciteam/krieder/swift_bench/b1.tcl
+PPN=32
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/56
+WALLTIME=00:15:00
+NODES=32
+wrote: /u/sciteam/krieder/turbine-output/2013/09/13/17/38/56/turbine-aprun.sh
+436879.nid11293
+N: 64000000
+PPN: 32
+NODES: 64
+ADLB_SERVERS: 64
+TUBINE_ENGINES: 64
+nprocs: 2048
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/57
+SCRIPT=/mnt/a/u/sciteam/krieder/swift_bench/b1.tcl
+PPN=32
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/57
+WALLTIME=00:15:00
+NODES=64
+wrote: /u/sciteam/krieder/turbine-output/2013/09/13/17/38/57/turbine-aprun.sh
+436880.nid11293
+N: 128000000
+PPN: 32
+NODES: 128
+ADLB_SERVERS: 128
+TUBINE_ENGINES: 128
+nprocs: 4096
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/58
+SCRIPT=/mnt/a/u/sciteam/krieder/swift_bench/b1.tcl
+PPN=32
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/58
+WALLTIME=00:15:00
+NODES=128
+wrote: /u/sciteam/krieder/turbine-output/2013/09/13/17/38/58/turbine-aprun.sh
+436881.nid11293
+N: 256000000
+PPN: 32
+NODES: 256
+ADLB_SERVERS: 256
+TUBINE_ENGINES: 256
+nprocs: 8192
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/58
+SCRIPT=/mnt/a/u/sciteam/krieder/swift_bench/b1.tcl
+PPN=32
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/58
+WALLTIME=00:15:00
+NODES=256
+wrote: /u/sciteam/krieder/turbine-output/2013/09/13/17/38/58/turbine-aprun.sh
+436882.nid11293
+N: 512000000
+PPN: 32
+NODES: 512
+ADLB_SERVERS: 512
+TUBINE_ENGINES: 512
+nprocs: 16384
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/59
+SCRIPT=/mnt/a/u/sciteam/krieder/swift_bench/b1.tcl
+PPN=32
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/38/59
+WALLTIME=00:15:00
+NODES=512
+wrote: /u/sciteam/krieder/turbine-output/2013/09/13/17/38/59/turbine-aprun.sh
+436883.nid11293
+N: 1024000000
+PPN: 32
+NODES: 1024
+ADLB_SERVERS: 1024
+TUBINE_ENGINES: 1024
+nprocs: 32768
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/39/00
+SCRIPT=/mnt/a/u/sciteam/krieder/swift_bench/b1.tcl
+PPN=32
+TURBINE_OUTPUT=/u/sciteam/krieder/turbine-output/2013/09/13/17/39/00
+WALLTIME=00:15:00
+NODES=1024
+wrote: /u/sciteam/krieder/turbine-output/2013/09/13/17/39/00/turbine-aprun.sh
+436884.nid11293
