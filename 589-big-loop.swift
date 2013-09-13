@@ -1,4 +1,3 @@
-
 /*
   Reported to exm-user by Scott Krieder on 10/24/2012
   Cannot reproduce problem. -Justin
@@ -9,6 +8,9 @@ import sys;
 
 main
 {
+//     int bound = 32;
+//     float sleepTime = 0.001;
+
      int bound = toint(argv("bound"));
      float sleepTime = tofloat(argv("sleeptime"));
 
