@@ -1,0 +1,10 @@
+# +=======================================================+
+# | Manifest file to build Turbine application executable |
+# +=======================================================+
+
+# Manifest info: required to generate .c file and pkgIndex.tcl
+# ------------------------------------------------------------
+
+# main script. If provided, always runs this main script.  Otherwise
+# script file is specified as first command line argument (like tclsh)
+main_script = 589-big-loop.tcl
