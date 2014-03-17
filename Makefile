@@ -19,6 +19,7 @@ EXEC_589 = 589-big-loop.x
 CC = cc
 
 CFLAGS = -std=c99
+LDFLAGS = -dynamic
 
 TCL_LIB_FLAGS = -lz -lm -ldl
 
@@ -41,7 +42,7 @@ $(MAIN_C_589): $(TCL_589) $(MANIFEST_589)
 	mkstatic.tcl $(MANIFEST_589) -c $(MAIN_C_589) --include-sys-lib $(TCL_STATIC_LIB) --tcl-version 8.6
 
 $(EXEC_589): $(MAIN_C_589)
-	$(CC) $(CFLAGS) $(MAIN_C_589) $(EXM_INCLUDE) $(EXM_LIB) -o $(EXEC_589)
+	$(CC) $(LDFLAGS) $(CFLAGS) $(MAIN_C_589) $(EXM_INCLUDE) $(EXM_LIB) -o $(EXEC_589)
 
 b1:
 	stc b1.swift
@@ -53,4 +54,4 @@ test-big:
 	QUEUE=normal BLUE_WATERS=true PPN=32 turbine-aprun-run.zsh -n 32 589-big-loop.tcl -bound=1 -sleeptime=1
 
 clean:
-	rm $(TCL_589) $(MAIN_C_589)
+	rm -f $(TCL_589) $(MAIN_C_589) $(EXEC_589)
