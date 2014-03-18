@@ -5,8 +5,9 @@ import os.path
 import glob
 
 
-output_columns = ["PROCS", "NODES", "TURBINE_ENGINES", "ADLB_SERVERS",
-       "TURBINE_WORKERS", "bound", "sleeptime", "adlb_elapsed_time" ] 
+output_columns = ["directory",
+        "PROCS", "NODES", "TURBINE_ENGINES", "ADLB_SERVERS",
+        "TURBINE_WORKERS", "bound", "sleeptime", "adlb_elapsed_time" ] 
 
 def process_dir(dir):
   out1 = os.path.join(dir, "output.txt")
@@ -26,7 +27,7 @@ def process_dir(dir):
     print >> sys.stderr, "Multiple matches for %s" % out2_pattern
     return
   
-  vals = {}
+  vals = {"directory": dir}
 
   scrape_file(vals, out1, [
         ("PROCS:", "PROCS"),
