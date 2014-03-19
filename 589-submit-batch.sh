@@ -22,7 +22,7 @@ do
         taskmultiplier=$(bc <<< "1/${sleeptime}")
       fi
 
-      TURBINE_OUTPUT="$out_root/$NODES/$sleeptime/$attempt" \
+      TURBINE_OUTPUT="$out_root/${NODES}_nodes/${sleeptime}_sleep/run$attempt" \
       QUEUE=normal WALLTIME="00:15:00" BLUE_WATERS=true PPN=32 \
         ADLB_SERVERS=$NODES TURBINE_ENGINES=$NODES TURBINE_LOG=0 \
         ADLB_PRINT_TIME=1 ADLB_PERF_COUNTERS=1 \
