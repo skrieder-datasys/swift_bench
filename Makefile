@@ -26,7 +26,7 @@ TCL_LIB_FLAGS = -lz -lm -ldl
 EXM_INCLUDE = -I $(C_UTILS_INSTALL)/include -I $(LB_INSTALL)/include \
       -I $(TURBINE_INSTALL)/include -I $(TCL_INCLUDE)
 
-EXM_LIB = -L $(TURBINE_INSTALL)/lib -ltclturbinestatic -ltclturbine -ltclturbinestaticres \
+EXM_LIB = -Wl,-Bstatic -L $(TURBINE_INSTALL)/lib -ltclturbinestatic -ltclturbine -ltclturbinestaticres \
      -L $(LB_INSTALL)/lib -l adlb \
      -L $(C_UTILS_INSTALL)/lib -lexmcutils \
      -L $(TCL_STATIC_LIB) -ltcl$(TCL_VERSION) $(TCL_LIB_FLAGS)
