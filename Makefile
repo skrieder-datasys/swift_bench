@@ -1,11 +1,11 @@
 all: big b1
 
-TCL_STATIC_HOME = /u/sciteam/tarmstro/soft/exm-dev/tcl
+TCL_STATIC_HOME = $(HOME)/soft/tcl-static
 TCL_STATIC_LIB = $(TCL_STATIC_HOME)/lib
 TCL_INCLUDE = $(TCL_STATIC_HOME)/include
 TCL_VERSION = 8.6
 
-EXM_INSTALL = /u/sciteam/tarmstro/soft/exm-dev
+EXM_INSTALL = $(HOME)/soft/exm-dev
 C_UTILS_INSTALL = $(EXM_INSTALL)/c-utils
 LB_INSTALL = $(EXM_INSTALL)/lb
 TURBINE_INSTALL = $(EXM_INSTALL)/turbine
